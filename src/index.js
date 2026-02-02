@@ -13,7 +13,7 @@ import Productlist from "./pages/Productlist";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/makaan">
             <Routes>
                 <Route element={<Layout />}>
                     <Route index element={<Home />} />

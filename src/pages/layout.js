@@ -10,7 +10,7 @@ const Layout = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-2">
         <div className="container-fluid">
-          <img src={j1}/>
+          <img src={j1} />
           <Link className="navbar-brand" to="/">Makaan</Link>
 
           <button

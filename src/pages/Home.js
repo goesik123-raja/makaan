@@ -120,12 +120,18 @@ const Home = () => {
           <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.<br></br>
             Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
             <br></br>dolore erat amet</p>
-          <i class="fa-solid fa-check"></i>
-          <h4>Tempor erat elitr rebum at clita</h4><br></br>
-          <i class="fa-solid fa-check"></i>
-          <h4>Aliqu diam amet diam et eos</h4><br></br>
-          <i class="fa-solid fa-check"></i>
-          <h4>Clita duo justo magna dolore erat amet</h4><br></br>
+          <div className="place-feature">
+            <i class="fa-solid fa-check"></i>
+            <h4>Tempor erat elitr rebum at clita</h4>
+          </div>
+          <div className="place-feature">
+            <i class="fa-solid fa-check"></i>
+            <h4>Aliqu diam amet diam et eos</h4>
+          </div>
+          <div className="place-feature">
+            <i class="fa-solid fa-check"></i>
+            <h4>Clita duo justo magna dolore erat amet</h4>
+          </div>
           <button type="button" class="btn btn-success" id="btn2">Read more</button>
         </div>
       </div>

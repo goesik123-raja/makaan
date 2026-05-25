@@ -13,16 +13,18 @@ import d2 from './img/property-1.jpg';
 const Contact = () => {
   return (
     <>
-      <div className="cont-1">
-        <div className="cont">
-          <h1>Contact US</h1>
-          <p>Home/ pages/ Contact</p>
+      <div className="contact-hero">
+        <div className="cont-1">
+          <div className="cont">
+            <h1>Contact US</h1>
+            <p>Home/ pages/ Contact</p>
+          </div>
         </div>
-      </div>
 
-      <div className="ptl">
-        <div className="ptl-1">
-          <img src={h1} alt="banner" />
+        <div className="ptl">
+          <div className="ptl-1">
+            <img src={h1} alt="banner" />
+          </div>
         </div>
       </div>
 
@@ -75,7 +77,7 @@ const Contact = () => {
 
 
 
-      {/* <div className='contact '>
+      <div className='contact '>
         <div className='d3'>
           <img src={d3} className='contact-img' />
         </div>
@@ -86,7 +88,8 @@ const Contact = () => {
           <button type="button" class="btn btn-success m-3 p-3"><i class="fa-solid fa-headset"></i>MAKE A CALL</button>
           <button type="button" class="btn btn-success m-3 p-3"><i class="fa-regular fa-calendar-days"></i>GET APPOINMENT</button>
         </div>
-      </div> */}
+      </div>
+
 
       <footer className="footer">
         <div className="container">

@@ -1,6 +1,6 @@
 import './index.css';
 
-import h1 from './img/carousel-1.jpg';
+import c1 from './img/carousel-1.jpg';
 
 import c2 from './img/property-2.jpg';
 import c3 from './img/property-3.jpg';
@@ -12,16 +12,18 @@ import d2 from './img/property-1.jpg';
 const Productlist = () => {
     return (
         <>
-            <div className="rty">
-                <div className="rty-1">
-                    <h1>Property List</h1>
-                    <p>Home / Pages / Property List</p>
+            <div className="product-hero">
+                <div className="rty">
+                    <div className="rty-1">
+                        <h1>Property List</h1>
+                        <p>Home / Pages / Property List</p>
+                    </div>
                 </div>
-            </div>
 
-            <div className="ptl">
-                <div className="ptl-1">
-                    <img src={h1} alt="banner" />
+                <div className="ptl">
+                    <div className="ptl-1">
+                        <img src={c1} alt="banner" />
+                    </div>
                 </div>
             </div>
 

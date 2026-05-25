@@ -6,7 +6,7 @@ import y2 from './img/team-2.jpg';
 import y3 from './img/team-3.jpg';
 import y4 from './img/team-4.jpg';
 
-import d3 from './img/call-to-action.jpg';
+
 
 import c2 from './img/property-2.jpg';
 import c3 from './img/property-3.jpg';
@@ -95,19 +95,6 @@ const Productagent = () => {
                 </div>
             </div>
 
-
-            <div className='contact '>
-                <div className='d3'>
-                    <img src={d3} className='contact-img' />
-                </div>
-                <div className='contact-1'>
-                    <h1>Contact With Our Certified<br></br> Agent</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd<br></br>
-                        vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo</p>
-                    <button type="button" class="btn btn-success m-3 p-3"><i class="fa-solid fa-headset"></i>MAKE A CALL</button>
-                    <button type="button" class="btn btn-success m-3 p-3"><i class="fa-regular fa-calendar-days"></i>GET APPOINMENT</button>
-                </div>
-            </div>
 
             <footer className="footer">
                 <div className="container">
